@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(69, 128, 155);
+}
+.navname{
+    padding: 25px;
+}
+.firstul{
+    display: flex;
+list-style-type: none;
+}
+.secul{
+    list-style-type: none;
+    display: none;
+}
+li{
+    padding: 25px;
+}
+.inpt1{
+    margin-left: 500px;
+    margin-top : 25px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    height: 30px;
+    background-color: aliceblue;
+    border-color: rgb(73, 73, 128);
+    border-radius: 5px;
+
+}
+.btn1{
+    height: 35px;
+    margin-top : 25px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding:10px ;
+    background-color: aliceblue;
+    border-color: rgb(73, 73, 128);
+    border-radius: 5px;
+
+}
+.btn1:hover{
+    background-color:rgb(73, 73, 128);   
+     cursor: pointer;
+}
+.navname:hover{
+    color: rgb(73, 73, 128);
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(73, 73, 128);
+    cursor: pointer;
+}
+.inpt1:hover{
+    cursor: cell;
+}
+.cover{
+    background-image:url("On\ Freedom\ of\ Will.jpeg") ;
+    background-size: cover;
+    height: 600px;
+    filter: brightness(1) grayscale(0);
+    opacity: 1;
+}
+.welcome{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 55px;
+    padding-top: 130px;
+}
+.welcome:hover{
+    color: rgb(73, 73, 128);
+}
+.btn2{
+margin: 200px;
+margin-left: 650px;
+margin-top: 60px;
+padding: 15px;
+padding-left: 30px;
+padding-right: 30px;
+opacity: 0.5;
+text-align: center;
+border-radius:10px ;
+border-color: rgb(73, 73, 128);
+
+}
+.btn2:hover{
+    opacity: 1;
+}
+.qe{
+    text-decoration: none;
+    color: aliceblue;
+}
+.qe:hover{
+    color: rgb(73, 73, 128);
+}
+.about{
+    text-decoration: none;
+    color: aliceblue;
+}
+.about:hover{
+    color: rgb(73, 73, 128);
+}
+
